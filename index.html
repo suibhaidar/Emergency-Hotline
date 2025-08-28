@@ -1,14 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Hotline</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
-    
+
+<body class="mx-w-[1920px]  ">
+
+    <!-- navber -->
+
+    <nav class="">
+        <div class="md:flex justify-between items-center py-4 px-5 md:px-10">
+            <div class="flex items-center pb-3">
+                <img class="h-14 w-14" src="/assets/logo.png" alt="">
+                <h2 class="font-bold text-[#006747] text-xl ml-2 title  ">Emergency <br> Service</h2>
+            </div>
+            <div class="flex justify-between md:justify-center items-center gap-3">
+                <button class="bg-[#41ff6b1a] h-[45px] w-[120px] rounded-[50px] text-xl">0 <i class="fa-solid fa-heart"
+                        style="color: #e30d0d;"></i></button>
+                <button class="flex justify-center items-center bg-[#41ff6b1a]  h-[45px] w-[120px] rounded-[50px] text-xl">
+                    <span>100</span>
+                    <img src="./assets/coin.png" class="h-8 w-8 ml-2" alt=""></button>
+                <button class="md:bg-[#00A63E] bg-[#41ff6b1a] h-[45px] w-[120px] rounded-[50px] text-xl md:text-white"> <span>2</span> copy</button>
+
+            </div>
+        </div>
+    </nav>
+    <!-- banner -->
+    <div class="">
+        <div class=" text-white text-center bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-5">
+            <div class="flex justify-center items-center"><img src="/assets/logo-dark.png" class="w-24 h-24" alt="">
+            </div>
+            <h1 class="font-bold text-4xl py-4">Emergency Service Directory</h1>
+            <p class="font-semibold text-xl ">Government Emergency Services at Your Fingertip – A Project by Government
+                of the People’s Republic of Bangladesh</p>
+        </div>
+    </div>
+    <!-- card container -->
+
+
+    <main>
+        <div class=" md:flex bg-[#41ff6b1a] gap-10 p-8">
+              <div class=" grid grid-cols-1 md:grid-cols-3 gap-7 p-6 ">
+                <!-- card 1 -->
+            <div class="card bg-white shadow-md rounded-md p-3">
+                <div class="flex justify-between items-center">
+                    <img src="/assets/police.png" class="bg-[#DFEFFF] w-14 h-14  " alt="">
+                    <button class="btn btn-square  text-xl">
+                        <i class="fa-regular fa-heart fa-xl"></i>
+                    </button>
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl pt-3">Police Helpline Number</h1>
+                    <p>Police</p>
+                    <h1 class="font-bold text-xl mt-3">999</h1>
+                    <p>Police</p>
+                </div>
+                <div class="">
+                    <button class=" border-1 border-gray-200 h-10 w-[49%] rounded-xl my-4 "><i
+                            class="fa-regular fa-copy rotate-180"></i> copy</button>
+                    <button class="bg-[#00A63E] h-10 w-[49%]  rounded-xl text-xl text-white my-4">call</button>
+                </div>
+
+            </div>
+            <!-- card 2 -->
+            <div class="card bg-white shadow-md rounded-md p-3">
+                <div class="flex justify-between items-center">
+                    <img src="/assets/police.png" class="bg-[#DFEFFF] w-14 h-14  " alt="">
+                    <button class="btn btn-square  text-xl">
+                        <i class="fa-regular fa-heart fa-xl"></i>
+                    </button>
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl mt-3">Police Helpline Number</h1>
+                    <p>Police</p>
+                    <h1 class="font-bold text-xl mt-3">222</h1>
+                    <p>Police</p>
+                </div>
+                <div>
+                    <button class=" border-1 border-gray-200 h-10 w-[49%] rounded-xl my-4 "><i
+                            class="fa-regular fa-copy rotate-180"></i> copy</button>
+                    <button class="bg-[#00A63E] h-10 w-[49%]  rounded-xl text-xl text-white ">call</button>
+                </div>
+
+            </div>
+            <!-- card 3 -->
+            <div class="card bg-white shadow-md rounded-md p-3">
+                <div class="flex justify-between items-center">
+                    <img src="/assets/police.png" class="bg-[#DFEFFF] w-14 h-14  " alt="">
+                    <button class="btn btn-square  text-xl">
+                        <i class="fa-regular fa-heart fa-xl"></i>
+                    </button>
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl mt-3">Police Helpline Number</h1>
+                    <p>Police</p>
+                    <h1 class="font-bold text-xl mt-3">999</h1>
+                    <p>Police</p>
+                </div>
+                <div>
+                    <button class=" border-1 border-gray-200 h-10 w-[49%] rounded-xl my-4 "><i
+                            class="fa-regular fa-copy rotate-180"></i> copy</button>
+                    <button class="bg-[#00A63E] h-10 w-[49%]  rounded-xl text-xl text-white my-4">call</button>
+                </div>
+
+            </div>
+             <!-- card 5 -->
+
+            <div class="card bg-white shadow-md rounded-md p-3">
+                <div class="flex justify-between items-center">
+                    <img src="/assets/police.png" class="bg-[#DFEFFF] w-14 h-14  " alt="">
+                    <button class="btn btn-square  text-xl">
+                        <i class="fa-regular fa-heart fa-xl"></i>
+                    </button>
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl mt-3">Police Helpline Number</h1>
+                    <p>Police</p>
+                    <h1 class="font-bold text-xl mt-3">999</h1>
+                    <p>Police</p>
+                </div>
+                <div>
+                    <button class=" border-1 border-gray-200 h-10 w-[49%] rounded-xl my-4 "><i
+                            class="fa-regular fa-copy rotate-180"></i> copy</button>
+                    <button class="bg-[#00A63E] h-10 w-[49%]  rounded-xl text-xl text-white my-4">call</button>
+                </div>
+
+            </div>
+            <!-- card 6 -->
+            <div class="card bg-white shadow-md rounded-md p-3">
+                <div class="flex justify-between items-center">
+                    <img src="/assets/police.png" class="bg-[#DFEFFF] w-14 h-14  " alt="">
+                    <button class="btn btn-square  text-xl">
+                        <i class="fa-regular fa-heart fa-xl"></i>
+                    </button>
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl mt-3">Police Helpline Number</h1>
+                    <p>Police</p>
+                    <h1 class="font-bold text-xl mt-3">999</h1>
+                    <p>Police</p>
+                </div>
+                <div>
+                    <button class=" border-1 border-gray-200 h-10 w-[49%] rounded-xl my-4 "><i
+                            class="fa-regular fa-copy rotate-180"></i> copy</button>
+                    <button class="bg-[#00A63E] h-10 w-[49%]  rounded-xl text-xl text-white my-4">call</button>
+                </div>
+
+            </div>
+            <!-- card 7 -->
+            <div class="card  bg-white shadow-md rounded-md p-3">
+                <div class="flex justify-between items-center">
+                    <img src="/assets/police.png" class="bg-[#DFEFFF] w-14 h-14  " alt="">
+                    <button class="btn btn-square  text-xl">
+                        <i class="fa-regular fa-heart fa-xl"></i>
+                    </button>
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl pt-3">Police Helpline Number</h1>
+                    <p>Police</p>
+                    <h1 class="font-bold text-xl mt-3">999</h1>
+                    <p>Police</p>
+                </div>
+                <div>
+                    <button class=" border-1 border-gray-200 h-10 w-[49%] rounded-xl my-4 "><i
+                            class="fa-regular fa-copy rotate-180"></i> copy</button>
+                    <button class="bg-[#00A63E] h-10 w-[49%]  rounded-xl text-xl text-white my-4">call</button>
+                </div>
+
+            </div>
+            <!-- card 8 -->
+            <div class="card bg-white shadow-md rounded-md p-3">
+                <div class="flex justify-between items-center">
+                    <img src="/assets/police.png" class="bg-[#DFEFFF] w-14 h-14  " alt="">
+                    <button class="btn btn-square  text-xl">
+                        <i class="fa-regular fa-heart fa-xl"></i>
+                    </button>
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl mt-3">Police Helpline Number</h1>
+                    <p>Police</p>
+                    <h1 class="font-bold text-xl mt-3">999</h1>
+                    <p>Police</p>
+                </div>
+                <div>
+                    <button class=" border-1 border-gray-200 h-10 w-[49%] rounded-xl my-4 "><i
+                            class="fa-regular fa-copy rotate-180"></i> copy</button>
+                    <button class="bg-[#00A63E] h-10 w-[49%]  rounded-xl text-xl text-white my-4">call</button>
+                </div>
+
+            </div>
+            <!-- card 9 -->
+            <div class="card bg-white shadow-md rounded-md p-3">
+                <div class="flex justify-between items-center">
+                    <img src="/assets/police.png" class="bg-[#DFEFFF] w-14 h-14  " alt="">
+                    <button class="btn btn-square  text-xl">
+                        <i class="fa-regular fa-heart fa-xl"></i>
+                    </button>
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl mt-3">Police Helpline Number</h1>
+                    <p>Police</p>
+                    <h1 class="font-bold text-xl mt-3">999</h1>
+                    <p>Police</p>
+                </div>
+                <div>
+                    <button class=" border-1 border-gray-200 h-10 w-[49%] rounded-xl my-4 "><i
+                            class="fa-regular fa-copy rotate-180"></i> copy</button>
+                    <button class="bg-[#00A63E] h-10 w-[49%]  rounded-xl text-xl text-white my-4">call</button>
+                </div>
+
+            </div>
+
+            <div class="card  bg-white shadow-md rounded-md p-3   ">
+                <div class="flex justify-between items-center">
+                    <img src="/assets/police.png" class="bg-[#DFEFFF] w-14 h-14  " alt="">
+                    <button class="btn btn-square  text-xl">
+                        <i class="fa-regular fa-heart fa-xl"></i>
+                    </button>
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl pt-3">Police Helpline Number</h1>
+                    <p>Police</p>
+                    <h1 class="font-bold text-xl mt-3">999</h1>
+                    <p>Police</p>
+                </div>
+                <div>
+                    <button class=" border-1 border-gray-200 h-10 w-[49%] rounded-xl my-4 "><i
+                            class="fa-regular fa-copy rotate-180"></i> copy</button>
+                    <button class="bg-[#00A63E] h-10 w-[49%]  rounded-xl text-xl text-white my-4">call</button>
+                </div>
+            </div>
+
+             </div>
+            
+
+            <div class="  bg-white mt-6 rounded-xl mb-7  p-3 shadow-md  md:w-[25%] h-auto">
+                <div class="flex justify-between items-center md:gap-10">
+                    <p><i class="fa-solid fa-clock-rotate-left"></i> Call History</p>
+                    <button class="bg-[#00A63E] h-[45px] w-[120px] rounded-[50px] text-xl text-white">Clear</button>
+                </div>
+                <h1> History</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsa, facilis nostrum beatae fugiat rem optio odio architecto similique nulla libero officia consectetur accusamus? Enim itaque minus eum sunt officia!</p>
+
+            </div>
+
+        </div>
+    </main>
+
+
+
 </body>
+
 </html>
