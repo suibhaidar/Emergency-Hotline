@@ -236,4 +236,57 @@ document.getElementById('call-btn-6')
     historyContainer.appendChild(div)
 })
 
+// copy btn 
+const copyContainer = document.getElementById('copy-container')
+let copyCount = 0
+document.getElementById('copy-btn')
+.addEventListener('click', function(){
+    copyCount = copyCount + 1;
+    copyContainer.innerText = copyCount
+    const copyNumber = document.getElementById('number').innerText
+    navigator.clipboard.writeText(copyNumber)
+    alert('Number copied'  + copyNumber)
+})
+
+document.getElementById('copy-btn-2')
+.addEventListener('click', function(){
+    copyCount = copyCount + 1;
+    copyContainer.innerText = copyCount;
+    const copyNumber = document.getElementById('number-2').innerText
+    navigator.clipboard.writeText(copyNumber)
+    alert('Number copied'  + copyNumber)
+})
+document.getElementById('copy-btn-3')
+.addEventListener('click', function(){
+    copyCount = copyCount + 1;
+    copyContainer.innerText = copyCount;
+    const copyNumber = document.getElementById('number-3').innerText
+    navigator.clipboard.writeText(copyNumber)
+    alert('Number copied'  + copyNumber)
+})
+document.getElementById('copy-btn-4')
+.addEventListener('click', function(){
+    copyCount = copyCount + 1;
+    copyContainer.innerText = copyCount;
+    const copyNumber = document.getElementById('number-4').innerText
+    navigator.clipboard.writeText(copyNumber)
+    alert('Number copied'  + copyNumber)
+})
+document.getElementById('copy-btn-5')
+.addEventListener('click', function(){
+    copyCount = copyCount + 1;
+    copyContainer.innerText = copyCount;
+    const copyNumber = document.getElementById('number-5').innerText
+    navigator.clipboard.writeText(copyNumber)
+    alert('Number copied'  + copyNumber)
+})
+document.getElementById('copy-btn-6')
+.addEventListener('click', function(){
+    copyCount = copyCount + 1;
+    copyContainer.innerText = copyCount;
+    const copyNumber = document.getElementById('number-6').innerText
+    navigator.clipboard.writeText(copyNumber)
+    alert('Number copied'  + copyNumber)
+})
+
  
